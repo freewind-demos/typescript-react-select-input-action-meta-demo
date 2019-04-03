@@ -1,7 +1,8 @@
-TypeScript React Select Demo
-=================================
+TypeScript React Select "InputActionMeta" Demo
+==============================================
 
-既可以输入又可以选择的Select组件。
+由于react-select非常灵活，所以`onInputChange`可能有多种不同的事件，这时候可以通过`InputActionMeta`来区分动作。
+另外，其`newValue`指的是手动输入的值。
 
 ```
 npm install
