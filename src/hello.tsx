@@ -1,7 +1,6 @@
-//import * as React from 'react'
 import React, {useState} from 'react'
 import Select from 'react-select';
-import {ValueType, OptionsType, InputActionMeta} from "react-select/lib/types";
+import {ValueType, OptionsType, InputActionMeta} from "react-select";
 
 type OptionType = {
   value: string,
